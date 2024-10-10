@@ -10,8 +10,15 @@
     &__list {
         display: flex;
         justify-content: space-around;
-        list-style-type: none;
         margin-top: 50px;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        .button {
+            margin-top: 24px;
+        }
         
         &__item {
             text-align: center;
@@ -32,6 +39,11 @@
             strong {
                 display: block;
                 margin-top: 24px;
+            }
+
+            .button {
+                margin-top: 2vw;
+                margin-bottom: 8px;
             }
         }
     }

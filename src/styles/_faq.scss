@@ -7,7 +7,6 @@
     }
 
     &__questions {
-        list-style-type: none;
 
         &__item {
             background-color: #13151d;
@@ -16,7 +15,7 @@
             &__question {
                 color: #fff;
                 font-size: 20px;
-                padding: 24px;
+                padding: 16px;
                 display: block;
                 cursor: pointer;
                 position: relative;
